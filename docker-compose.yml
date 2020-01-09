@@ -1,0 +1,27 @@
+version: '3'
+services:
+  mysql:
+    image: mysql:8
+    environment:
+      MYSQL_ROOT_PASSWORD: superpassword
+      MYSQL_DATABASE: db
+      MYSQL_USER: biniou
+      MYSQL_PASSWORD: password
+  web:
+    image: nginx:1.17
+    ports:
+      - "8080:80"
+    volumes:
+      - ./code:/app
+      - ./site.conf:/etc/nginx/conf.d/default.conf
+    depends_on:
+      - php
+
+  php:
+    build: .
+    volumes:
+      - ./code:/app
+      - ~/.gitconfig:/root/.gitconfig
+    environment:
+      APP_ENV: dev
+      DATABASE_URL: mysql://biniou:password@mysql:3306/db
