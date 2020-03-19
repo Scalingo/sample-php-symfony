@@ -26,6 +26,12 @@ At the end you get:
 
 Open the link, and here you are, navigating on the deployed application
 
+### One click button
+
+<a href="https://my.osc-fr1.scalingo.com/deploy?source=https%3A%2F%2Fgithub.com%2FScalingo%2Fsample-php-symfony">
+   <img src="https://cdn.scalingo.com/deploy/button.svg" alt="Deploy on Scalingo" data-canonical-src="https://cdn.scalingo.com/deploy/button.svg" style="max-width:100%;">
+</a>
+
 ## Running locally
 
 Initialize a few directories:
