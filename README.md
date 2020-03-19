@@ -1,28 +1,5 @@
 # Symfony 5
 
-## Running locally
-
-Initialize a few directories:
-
-```sh
-mkdir -p code/var/cache/dev code/var/log
-chmod -R 777 code/var
-```
-
-Build the environnement
-```
-docker-compose build
-docker-compose run php composer install
-```
-
-Run the web server:
-
-```sh
-docker-compose up
-```
-
-Then the website is available at `http://localhost:8080`.
-
 ## Deploying on Scalingo
 
 ### Git Push method
@@ -48,3 +25,27 @@ At the end you get:
 ```
 
 Open the link, and here you are, navigating on the deployed application
+
+## Running locally
+
+Initialize a few directories:
+
+```sh
+mkdir -p code/var/cache/dev code/var/log
+chmod -R 777 code/var
+```
+
+Build the environnement
+```
+docker-compose build
+docker-compose run php composer install
+```
+
+Run the web server:
+
+```sh
+docker-compose up
+```
+
+Then the website is available at `http://localhost:8080`.
+
