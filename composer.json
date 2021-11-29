@@ -79,6 +79,9 @@
         "symfony": {
             "allow-contrib": false,
             "require": "5.0.*"
+        },
+        "paas": {
+            "compile": ["exit 1"]
         }
     }
 }
