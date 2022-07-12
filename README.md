@@ -44,7 +44,7 @@ chmod -R 777 code/var
 Build docker
 ```
 docker-compose build
-docker-compose run php composer install
+docker-compose run --rm php composer install
 ```
 
 Run the web server:
