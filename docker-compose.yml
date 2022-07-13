@@ -20,7 +20,7 @@ services:
   php:
     build: .
     volumes:
-      - ./code:/app
+      - ./:/app
       - ~/.gitconfig:/root/.gitconfig
     environment:
       APP_ENV: dev
