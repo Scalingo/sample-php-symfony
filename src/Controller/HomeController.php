@@ -8,9 +8,7 @@ use Symfony\Bundle\FrameworkBundle\Controller\AbstractController;
 
 class HomeController extends AbstractController
 {
-  /**
-   * @Route("/")
-   */
+  #[Route('/')]
   public function index()
   {
       return $this->render('index.html.twig');
