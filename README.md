@@ -43,14 +43,14 @@ chmod -R 777 code/var
 
 Build docker
 ```
-docker-compose build
-docker-compose run --rm php composer install
+docker compose build
+docker compose run --rm php composer install
 ```
 
 Run the web server:
 
 ```sh
-docker-compose up
+docker compose up
 ```
 
 Then the website is available at `http://localhost:8080`.
