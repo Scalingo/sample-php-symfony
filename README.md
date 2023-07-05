@@ -1,4 +1,4 @@
-# Symfony 5
+# Symfony
 
 ## Deploying on Scalingo
 
