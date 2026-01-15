@@ -7,7 +7,7 @@
 Create an app on https://scalingo.com. Then execute the two commands given in the last app creation step:
 
 ```
-git remote add scalingo git@<app-git-address>.git 
+scalingo --app my-app git-setup
 git push scalingo master
 ```
 

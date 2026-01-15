@@ -1,14 +1,14 @@
 version: '3'
 services:
   mysql:
-    image: mysql:8
+    image: mysql:9.5.0
     environment:
       MYSQL_ROOT_PASSWORD: superpassword
       MYSQL_DATABASE: db
       MYSQL_USER: biniou
       MYSQL_PASSWORD: password
   web:
-    image: nginx:1.17
+    image: nginx:1.29.4
     ports:
       - "8080:80"
     volumes:
