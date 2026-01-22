@@ -1,0 +1,57 @@
+<?php //getType.a%253A3%253A%257Bi%253A0%253Bs%253A27%253A%2522Symfony%255CComponent%255CForm%255CForm%2522%253Bi%253A1%253Bs%253A6%253A%2522errors%2522%253Bi%253A2%253Ba%253A0%253A%257B%257D%257D
+
+return [PHP_INT_MAX, new class() implements \Symfony\Component\Cache\Traits\CachedValueInterface { public function getValue(): mixed { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\TypeInfo\\Type\\CollectionType'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\TypeInfo\\Type\\CollectionType')),
+        clone ($p['Symfony\\Component\\TypeInfo\\Type\\GenericType'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\TypeInfo\\Type\\GenericType')),
+        clone ($p['Symfony\\Component\\TypeInfo\\Type\\UnionType'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\TypeInfo\\Type\\UnionType')),
+        clone ($p['Symfony\\Component\\TypeInfo\\Type\\BuiltinType'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\TypeInfo\\Type\\BuiltinType')),
+        clone $p['Symfony\\Component\\TypeInfo\\Type\\BuiltinType'],
+        clone ($p['Symfony\\Component\\TypeInfo\\Type\\ObjectType'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\TypeInfo\\Type\\ObjectType')),
+        clone $p['Symfony\\Component\\TypeInfo\\Type\\BuiltinType'],
+    ],
+    null,
+    [
+        'Symfony\\Component\\TypeInfo\\Type\\CollectionType' => [
+            'type' => [
+                $o[1],
+            ],
+            'isList' => [
+                false,
+            ],
+        ],
+        'Symfony\\Component\\TypeInfo\\Type\\GenericType' => [
+            'variableTypes' => [
+                1 => [
+                    $o[2],
+                    $o[5],
+                ],
+            ],
+            'type' => [
+                1 => $o[6],
+            ],
+        ],
+        'Symfony\\Component\\TypeInfo\\Type\\UnionType' => [
+            'types' => [
+                2 => [
+                    $o[3],
+                    $o[4],
+                ],
+            ],
+        ],
+        'Symfony\\Component\\TypeInfo\\Type\\BuiltinType' => [
+            'typeIdentifier' => [
+                3 => \Symfony\Component\TypeInfo\TypeIdentifier::INT,
+                \Symfony\Component\TypeInfo\TypeIdentifier::STRING,
+                6 => \Symfony\Component\TypeInfo\TypeIdentifier::ARRAY,
+            ],
+        ],
+        'Symfony\\Component\\TypeInfo\\Type\\ObjectType' => [
+            'className' => [
+                5 => 'Symfony\\Component\\Form\\FormError',
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); } }];

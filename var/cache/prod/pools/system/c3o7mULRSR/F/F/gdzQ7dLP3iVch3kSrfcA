@@ -1,0 +1,37 @@
+<?php //getType.a%253A3%253A%257Bi%253A0%253Bs%253A27%253A%2522Symfony%255CComponent%255CForm%255CForm%2522%253Bi%253A1%253Bs%253A6%253A%2522parent%2522%253Bi%253A2%253Ba%253A0%253A%257B%257D%257D
+
+return [PHP_INT_MAX, new class() implements \Symfony\Component\Cache\Traits\CachedValueInterface { public function getValue(): mixed { return \Symfony\Component\VarExporter\Internal\Hydrator::hydrate(
+    $o = [
+        clone (($p = &\Symfony\Component\VarExporter\Internal\Registry::$prototypes)['Symfony\\Component\\TypeInfo\\Type\\NullableType'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\TypeInfo\\Type\\NullableType')),
+        clone ($p['Symfony\\Component\\TypeInfo\\Type\\ObjectType'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\TypeInfo\\Type\\ObjectType')),
+        clone ($p['Symfony\\Component\\TypeInfo\\Type\\BuiltinType'] ?? \Symfony\Component\VarExporter\Internal\Registry::p('Symfony\\Component\\TypeInfo\\Type\\BuiltinType')),
+    ],
+    null,
+    [
+        'Symfony\\Component\\TypeInfo\\Type\\UnionType' => [
+            'types' => [
+                [
+                    $o[1],
+                    $o[2],
+                ],
+            ],
+        ],
+        'Symfony\\Component\\TypeInfo\\Type\\NullableType' => [
+            'type' => [
+                $o[1],
+            ],
+        ],
+        'Symfony\\Component\\TypeInfo\\Type\\ObjectType' => [
+            'className' => [
+                1 => 'Symfony\\Component\\Form\\FormInterface',
+            ],
+        ],
+        'Symfony\\Component\\TypeInfo\\Type\\BuiltinType' => [
+            'typeIdentifier' => [
+                2 => \Symfony\Component\TypeInfo\TypeIdentifier::NULL,
+            ],
+        ],
+    ],
+    $o[0],
+    []
+); } }];
