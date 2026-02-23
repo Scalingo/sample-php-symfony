@@ -1,0 +1,5 @@
+# CODEOWNERS Automatic assignment
+
+composer.json @SC-Samir
+composer.lock @SC-Samir
+symfony.lock @SC-Samir
