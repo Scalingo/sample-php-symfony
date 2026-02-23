@@ -1,5 +1,5 @@
 # CODEOWNERS Automatic assignment
 
-composer.json @SC-Samir
-composer.lock @SC-Samir
-symfony.lock @SC-Samir
+composer.json @scalingo/devrel
+composer.lock @scalingo/devrel
+symfony.lock @scalingo/devrel
