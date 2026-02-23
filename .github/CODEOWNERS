@@ -1,0 +1,5 @@
+# CODEOWNERS Automatic assignment
+
+composer.json @scalingo/devrel
+composer.lock @scalingo/devrel
+symfony.lock @scalingo/devrel
