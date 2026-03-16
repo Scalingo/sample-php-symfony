@@ -5775,16 +5775,16 @@
         },
         {
             "name": "symfony/serializer",
-            "version": "v8.0.5",
+            "version": "v8.0.7",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/serializer.git",
-                "reference": "867a38a1927d23a503f7248aa182032c6ea42702"
+                "reference": "18bbaf7317e33e7e4bcd7ef281357ec4335fc900"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/serializer/zipball/867a38a1927d23a503f7248aa182032c6ea42702",
-                "reference": "867a38a1927d23a503f7248aa182032c6ea42702",
+                "url": "https://api.github.com/repos/symfony/serializer/zipball/18bbaf7317e33e7e4bcd7ef281357ec4335fc900",
+                "reference": "18bbaf7317e33e7e4bcd7ef281357ec4335fc900",
                 "shasum": ""
             },
             "require": {
@@ -5792,12 +5792,13 @@
                 "symfony/polyfill-ctype": "^1.8"
             },
             "conflict": {
-                "phpdocumentor/reflection-docblock": "<5.2|>=6",
+                "phpdocumentor/reflection-docblock": "<5.2|>=7",
                 "phpdocumentor/type-resolver": "<1.5.1",
-                "symfony/property-info": "<7.3"
+                "symfony/property-info": "<7.4",
+                "symfony/type-info": "<7.4"
             },
             "require-dev": {
-                "phpdocumentor/reflection-docblock": "^5.2",
+                "phpdocumentor/reflection-docblock": "^5.2|^6.0",
                 "phpstan/phpdoc-parser": "^1.0|^2.0",
                 "seld/jsonlint": "^1.10",
                 "symfony/cache": "^7.4|^8.0",
@@ -5847,7 +5848,7 @@
             "description": "Handles serializing and deserializing data structures, including object graphs, into array structures or other formats like XML and JSON.",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/serializer/tree/v8.0.5"
+                "source": "https://github.com/symfony/serializer/tree/v8.0.7"
             },
             "funding": [
                 {
@@ -5867,7 +5868,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-01-27T09:06:43+00:00"
+            "time": "2026-03-06T13:17:40+00:00"
         },
         {
             "name": "symfony/service-contracts",
