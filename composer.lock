@@ -5372,21 +5372,21 @@
         },
         {
             "name": "symfony/runtime",
-            "version": "v8.0.14",
+            "version": "v8.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/runtime.git",
-                "reference": "a1319f8b484635991bbd7924e979e32bcad732d0"
+                "reference": "b7ea1abe04561e814b3134db0f56c287cedb35cc"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/runtime/zipball/a1319f8b484635991bbd7924e979e32bcad732d0",
-                "reference": "a1319f8b484635991bbd7924e979e32bcad732d0",
+                "url": "https://api.github.com/repos/symfony/runtime/zipball/b7ea1abe04561e814b3134db0f56c287cedb35cc",
+                "reference": "b7ea1abe04561e814b3134db0f56c287cedb35cc",
                 "shasum": ""
             },
             "require": {
                 "composer-plugin-api": "^1.0|^2.0",
-                "php": ">=8.4"
+                "php": ">=8.4.1"
             },
             "conflict": {
                 "symfony/error-handler": "<7.4"
@@ -5432,7 +5432,7 @@
                 "runtime"
             ],
             "support": {
-                "source": "https://github.com/symfony/runtime/tree/v8.0.14"
+                "source": "https://github.com/symfony/runtime/tree/v8.1.0"
             },
             "funding": [
                 {
@@ -5452,7 +5452,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-06-05T06:22:43+00:00"
+            "time": "2026-05-29T05:06:50+00:00"
         },
         {
             "name": "symfony/security-bundle",
