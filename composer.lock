@@ -6511,16 +6511,16 @@
         },
         {
             "name": "symfony/twig-bridge",
-            "version": "v8.1.4",
+            "version": "v8.1.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/twig-bridge.git",
-                "reference": "948c4cf1193f50b9f20ce4e1aa2433b879f551a3"
+                "reference": "c721b1c98de3125ca195e35d52aaec5c97aa9c5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/twig-bridge/zipball/948c4cf1193f50b9f20ce4e1aa2433b879f551a3",
-                "reference": "948c4cf1193f50b9f20ce4e1aa2433b879f551a3",
+                "url": "https://api.github.com/repos/symfony/twig-bridge/zipball/c721b1c98de3125ca195e35d52aaec5c97aa9c5f",
+                "reference": "c721b1c98de3125ca195e35d52aaec5c97aa9c5f",
                 "shasum": ""
             },
             "require": {
@@ -6558,7 +6558,7 @@
                 "symfony/security-core": "^7.4|^8.0",
                 "symfony/security-csrf": "^7.4|^8.0",
                 "symfony/security-http": "^7.4|^8.0",
-                "symfony/serializer": "^7.4|^8.0",
+                "symfony/serializer": "^7.4.17|^8.1.5",
                 "symfony/stopwatch": "^7.4|^8.0",
                 "symfony/translation": "^7.4|^8.0",
                 "symfony/validator": "^7.4|^8.0",
@@ -6595,7 +6595,7 @@
             "description": "Provides integration for Twig with various Symfony components",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/twig-bridge/tree/v8.1.4"
+                "source": "https://github.com/symfony/twig-bridge/tree/v8.1.5"
             },
             "funding": [
                 {
@@ -6615,7 +6615,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-07-30T13:05:53+00:00"
+            "time": "2026-08-22T09:06:25+00:00"
         },
         {
             "name": "symfony/twig-bundle",
@@ -9478,22 +9478,22 @@
         },
         {
             "name": "symfony/debug-bundle",
-            "version": "v8.0.8",
+            "version": "v8.1.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/debug-bundle.git",
-                "reference": "d9d127d61fb2aa7f7f324a8b1928767e2211d1bc"
+                "reference": "2da1f202b38f646dbee032529cfd8e727cd12cd1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/debug-bundle/zipball/d9d127d61fb2aa7f7f324a8b1928767e2211d1bc",
-                "reference": "d9d127d61fb2aa7f7f324a8b1928767e2211d1bc",
+                "url": "https://api.github.com/repos/symfony/debug-bundle/zipball/2da1f202b38f646dbee032529cfd8e727cd12cd1",
+                "reference": "2da1f202b38f646dbee032529cfd8e727cd12cd1",
                 "shasum": ""
             },
             "require": {
                 "composer-runtime-api": ">=2.1",
                 "ext-xml": "*",
-                "php": ">=8.4",
+                "php": ">=8.4.1",
                 "symfony/config": "^7.4|^8.0",
                 "symfony/dependency-injection": "^7.4|^8.0",
                 "symfony/http-kernel": "^7.4|^8.0",
@@ -9529,7 +9529,7 @@
             "description": "Provides a tight integration of the Symfony VarDumper component and the ServerLogCommand from MonologBridge into the Symfony full-stack framework",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/debug-bundle/tree/v8.0.8"
+                "source": "https://github.com/symfony/debug-bundle/tree/v8.1.0"
             },
             "funding": [
                 {
@@ -9549,7 +9549,7 @@
                     "type": "tidelift"
                 }
             ],
-            "time": "2026-03-30T15:14:47+00:00"
+            "time": "2026-05-29T05:06:50+00:00"
         },
         {
             "name": "symfony/dom-crawler",
